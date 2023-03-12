@@ -8,5 +8,11 @@ public class Task1 {
         int n = 5;
         int triangleNumber = n * (n + 1) / 2;
         System.out.println("Треугольное число " + n + ": " + triangleNumber);
+        // Вычисление факториала числа n
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        System.out.println("Факториал " + n + " = " + factorial);
     }
 }
